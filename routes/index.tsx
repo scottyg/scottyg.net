@@ -131,19 +131,19 @@ export default function Home() {
       "title": "Forcem Ipsum",
       "description":
         "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website or as a Node.js module to easily be included in your own projects.",
-      "url": "https://forcemipsum.com",
+      "url": "https://forcemipsum.com/",
     },
     {
       "title": "http.gives",
       "description":
         "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with Laravel and Tailwind",
-      "url": "https://http.gives",
+      "url": "https://http.gives/",
     },
     {
       "title": "Scottyg.net",
       "description":
         "This website that you are currently reading is built using Deno and the Fresh framework. It is rendered server side and is deployed serverless on the edge via Deno Deploy.",
-      "url": "https://forcemipsum.com",
+      "url": "https://scottyg.net/",
     },
     {
       "title": "Syndified™",
