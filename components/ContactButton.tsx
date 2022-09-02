@@ -43,6 +43,7 @@ export function ContactButton(props: ButtonProps) {
   }
   return (
     <a
+      href={props.href}
       class={tw`px-2 py-1 inline-block rounded-md bg-purple-700 hover:bg-purple-900 text-white mr-2 group cursor-pointer`}
     >
       {logo}
