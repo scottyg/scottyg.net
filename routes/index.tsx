@@ -188,13 +188,14 @@ export default function Home() {
     "powered_by": "Earl Grey, Hot",
   };
   function createMarkup() {
-    return { __html: `
+    return {
+      __html: `
     a {
       --tw-text-opacity: 1;
       color: #6d28d9;
       color: rgba(109,40,217,var(--tw-text-opacity));
-    }`
-     };
+    }`,
+    };
   }
   return (
     <div>
@@ -205,12 +206,26 @@ export default function Home() {
           content="Built with Deno Fresh https://fresh.deno.dev/"
         />
         <meta name="description" content={meta.title} />
+        <link rel="icon" type="image/png" sizes="512x512" href={favicon} />
+
         <meta property="og:title" content={meta.title} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:type" content="website" />
-        <link rel="icon" type="image/png" sizes="512x512" href={favicon} />
         <meta property="og:url" content="https://scottyg.net" />
-        <meta property="og:image" content="http://scottyg.net/ScottGordon.png" />
+        <meta
+          property="og:image"
+          content="http://scottyg.net/ScottGordon.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="scottyg.net" />
+        <meta property="twitter:url" content="https://scottyg.net/" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta
+          name="twitter:image"
+          content="http://scottyg.net/ScottGordon.png"
+        />
       </Head>
       <div class={tw`min-h-screen h-full bg-gray-100`}>
         <div class={tw`container mx-auto px-4`}>
@@ -226,7 +241,6 @@ export default function Home() {
       </div>
 
       <style dangerouslySetInnerHTML={createMarkup()}></style>
-
     </div>
   );
 }
