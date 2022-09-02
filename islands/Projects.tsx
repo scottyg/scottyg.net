@@ -17,6 +17,9 @@ export default function Projects(props: ProjectsProps) {
       <h2 class={tw`text(2xl md:4xl md:left) my-4`}>Projects</h2>
       <div class={tw`gap-4 grid grid-cols-1 md:grid-cols-3`}>
         {props.projects.map((project: ProjectProps) => {
+          function createMarkup() {
+            return { __html: project.description };
+          }
           return (
             <div class={tw`rounded-lg bg-white shadow-lg p-4`}>
               <h3 class={tw`text-2xl`}>
@@ -28,7 +31,7 @@ export default function Projects(props: ProjectsProps) {
                   {project.title}
                 </a>
               </h3>
-              <p>{project.description}</p>
+              <div dangerouslySetInnerHTML={createMarkup()}></div>
             </div>
           );
         })}

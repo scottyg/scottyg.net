@@ -16,7 +16,6 @@ import Projects from "../islands/Projects.tsx";
 import Footer from "../islands/Footer.tsx";
 
 export default function Home() {
-  
   const meta = {
     "title": "Scott Gordon - Full Stack Developer",
     "description": "",
@@ -136,19 +135,19 @@ export default function Home() {
     {
       "title": "http.gives",
       "description":
-        "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with Laravel and Tailwind",
+        "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with <a href='https://laravel.com'>Laravel</a> and <a href='https://tailwindcss.com'>Tailwind</a>.",
       "url": "https://http.gives/",
     },
     {
       "title": "Scottyg.net",
       "description":
-        "This website that you are currently reading is built using Deno and the Fresh framework. It is rendered server side and is deployed serverless on the edge via Deno Deploy.",
+        "This website that you are currently reading is built using <a href='https://deno.land/'>Deno</a> and the <a href='https://fresh.deno.dev/'>Fresh</a> framework. It is rendered server side and is deployed serverless on the edge via <a href='https://deno.com/deploy/'>Deno Deploy</a>.",
       "url": "https://scottyg.net/",
     },
     {
       "title": "Syndified™",
       "description":
-        "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with Laravel, Tailwind and Vue.",
+        "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with <a href='https://laravel.com'>Laravel</a>, <a href='https://tailwindcss.com'>Tailwind</a> and <a href='https://vuejs.org/'>Vue</a>.",
       "url": "https://syndified.com/",
     },
     {
@@ -172,7 +171,7 @@ export default function Home() {
     {
       "title": "Syke",
       "description":
-        "Syke is a movement for a tobacco-free music scene. Built their entire website in Wordpress including a custom digital 'zine'.",
+        "Syke is a movement for a tobacco-free music scene. Built their entire website in <a href='https://wordpress.org/'>Wordpress</a> including a custom digital 'zine'.",
       "url": "https://www.sykeva.com/",
     },
     {
@@ -188,20 +187,30 @@ export default function Home() {
     "copy": "© " + new Date().getFullYear(),
     "powered_by": "Earl Grey, Hot",
   };
-
+  function createMarkup() {
+    return { __html: `
+    a {
+      --tw-text-opacity: 1;
+      color: #6d28d9;
+      color: rgba(109,40,217,var(--tw-text-opacity));
+    }`
+     };
+  }
   return (
     <div>
       <Head>
         <title>{meta.title}</title>
-        <meta name="builtWith" content="Built with Deno Fresh https://fresh.deno.dev/" />
+        <meta
+          name="builtWith"
+          content="Built with Deno Fresh https://fresh.deno.dev/"
+        />
         <meta name="description" content={meta.title} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/png" sizes="512x512" href={favicon} />
         <meta property="og:url" content="https://scottyg.net" />
-        <meta property="og:image" content={image} />
-
+        <meta property="og:image" content="http://localhost:8000/ScottGordon.png" />
       </Head>
       <div class={tw`min-h-screen h-full bg-gray-100`}>
         <div class={tw`container mx-auto px-4`}>
@@ -215,6 +224,9 @@ export default function Home() {
           <Footer contacts={contacts} footer={footer} />
         </div>
       </div>
+
+      <style dangerouslySetInnerHTML={createMarkup()}></style>
+
     </div>
   );
 }
