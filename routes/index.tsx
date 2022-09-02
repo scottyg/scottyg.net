@@ -87,11 +87,11 @@ export default function Home() {
     },
     {
       "title": "Vue / React",
-      "rating": 70,
+      "rating": 80,
     },
     {
       "title": "Node.js / Deno",
-      "rating": 70,
+      "rating": 85,
     },
     {
       "title": "MySQL / MariaDB",
