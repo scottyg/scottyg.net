@@ -210,7 +210,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/png" sizes="512x512" href={favicon} />
         <meta property="og:url" content="https://scottyg.net" />
-        <meta property="og:image" content="http://localhost:8000/ScottGordon.png" />
+        <meta property="og:image" content="http://scottyg.net/ScottGordon.png" />
       </Head>
       <div class={tw`min-h-screen h-full bg-gray-100`}>
         <div class={tw`container mx-auto px-4`}>
