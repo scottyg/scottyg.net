@@ -13,7 +13,7 @@ interface SkillProps {
 export default function Skills(props: SkillsProps) {
   return (
     <div class={tw`w-full`}>
-      <h2 class={tw`text(2xl center md:4xl md:left) mb-4`}>Skills</h2>
+      <h2 class={tw`text(2xl md:4xl md:left) mb-4`}>Skills</h2>
       <div class={tw`rounded-lg bg-white shadow-lg p-4 flex flex-col gap-2`}>
         {props.skills.map((skill: SkillProps) => {
           const rating = "width: " + skill.rating + "%";

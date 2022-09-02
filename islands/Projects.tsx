@@ -14,7 +14,7 @@ interface ProjectProps {
 export default function Projects(props: ProjectsProps) {
   return (
     <div class={tw`w-full`}>
-      <h2 class={tw`text(2xl center md:4xl md:left) my-4`}>Projects</h2>
+      <h2 class={tw`text(2xl md:4xl md:left) my-4`}>Projects</h2>
       <div class={tw`gap-4 grid grid-cols-1 md:grid-cols-3`}>
         {props.projects.map((project: ProjectProps) => {
           return (
