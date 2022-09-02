@@ -129,25 +129,25 @@ export default function Home() {
     {
       "title": "Forcem Ipsum",
       "description":
-        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website or as a Node.js module to easily be included in your own projects.",
+        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website or as a <a href='https://nodejs.org/' target='_blank'>Node.js</a> module to easily be included in your own projects.",
       "url": "https://forcemipsum.com/",
     },
     {
       "title": "http.gives",
       "description":
-        "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with <a href='https://laravel.com'>Laravel</a> and <a href='https://tailwindcss.com'>Tailwind</a>.",
+        "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with <a href='https://laravel.com' target='_blank'>Laravel</a> and <a href='https://tailwindcss.com' target='_blank'>Tailwind</a>.",
       "url": "https://http.gives/",
     },
     {
       "title": "Scottyg.net",
       "description":
-        "This website that you are currently reading is built using <a href='https://deno.land/'>Deno</a> and the <a href='https://fresh.deno.dev/'>Fresh</a> framework. It is rendered server side and is deployed serverless on the edge via <a href='https://deno.com/deploy/'>Deno Deploy</a>.",
+        "This website that you are currently reading is built using <a href='https://deno.land/' target='_blank'>Deno</a> and the <a href='https://fresh.deno.dev/' target='_blank'>Fresh</a> framework. It is rendered server side and is deployed serverless on the edge via <a href='https://deno.com/deploy/' target='_blank'>Deno Deploy</a>.",
       "url": "https://scottyg.net/",
     },
     {
       "title": "Syndified™",
       "description":
-        "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with <a href='https://laravel.com'>Laravel</a>, <a href='https://tailwindcss.com'>Tailwind</a> and <a href='https://vuejs.org/'>Vue</a>.",
+        "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with <a href='https://laravel.com' target='_blank'>Laravel</a>, <a href='https://tailwindcss.com' target='_blank'>Tailwind</a> and <a href='https://vuejs.org/' target='_blank'>Vue</a>.",
       "url": "https://syndified.com/",
     },
     {
@@ -171,7 +171,7 @@ export default function Home() {
     {
       "title": "Syke",
       "description":
-        "Syke is a movement for a tobacco-free music scene. Built their entire website in <a href='https://wordpress.org/'>Wordpress</a> including a custom digital 'zine'.",
+        "Syke is a movement for a tobacco-free music scene. Built their entire website in <a href='https://wordpress.org/' target='_blank'>Wordpress</a> including a custom digital 'zine'.",
       "url": "https://www.sykeva.com/",
     },
     {
