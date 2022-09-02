@@ -24,7 +24,7 @@ export default function Footer(props: FooterProps) {
     <div>
       <div class={tw`my-24`}>
         <h2 class={tw`text(2xl md:4xl center)`}>{props.footer.cta}</h2>
-        <div class={tw`flex align-center mt-2 justify-center`}>
+        <div class={tw`flex align-center mt-4 justify-center`}>
           {props.contacts.map((contact: ContactProps) => {
             return (
               <ContactButton href={contact.url} target="_blank" title={contact.title}/>

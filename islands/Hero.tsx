@@ -28,12 +28,12 @@ export default function Hero(props: HeroProps) {
         />
       </div>
       <div>
-        <h1 class={tw`text(2xl center md:4xl md)`}>
+        <h1 class={tw`text(2xl center md:4xl md:left)`}>
           {props.hero.heading}
           <br />
           {props.hero.sub_heading}
         </h1>
-        <div class={tw`flex align-center mt-2 justify-center md:justify-start`}>
+        <div class={tw`flex align-center mt-4 justify-center md:justify-start`}>
           {props.contacts.map((contact) => {
             return (
               <ContactButton href={contact.url} target="_blank" title={contact.title}/>
