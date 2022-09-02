@@ -1,4 +1,6 @@
-# fresh project
+# scottyg.net
+
+Built with Deno Fresh.
 
 ### Usage
 
