@@ -129,7 +129,7 @@ export default function Home() {
     {
       "title": "Forcem Ipsum",
       "description":
-        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website or as a <a href='https://nodejs.org/' target='_blank'>Node.js</a> module to easily be included in your own projects.",
+        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website, a <a href='https://deno.land/x/forcemipsum' target='_blank'>Deno Module</a> and, as a <a href='https://www.npmjs.com/package/forcem-ipsum' target='_blank'>NPM module</a> to easily be included in your own projects.",
       "url": "https://forcemipsum.com/",
     },
     {
