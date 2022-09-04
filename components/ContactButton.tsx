@@ -9,7 +9,9 @@ interface ButtonProps {
 }
 export function ContactButton(props: ButtonProps) {
   let logo;
+  let color;
   if (props.title == "Github") {
+    color = tw`px-2 py-1 inline-block rounded-md bg-gray-700 hover:bg-black text-white mr-2 group cursor-pointer`;
     logo = (
       <svg
         width="256px"
@@ -27,6 +29,8 @@ export function ContactButton(props: ButtonProps) {
       </svg>
     );
   } else if(props.title == "Twitter"){
+
+    color = tw`px-2 py-1 inline-block rounded-md bg-blue-400 hover:bg-blue-700 text-white mr-2 group cursor-pointer`;
     logo = (
       <svg
         width="256px"
@@ -44,7 +48,7 @@ export function ContactButton(props: ButtonProps) {
   return (
     <a
       href={props.href}
-      class={tw`px-2 py-1 inline-block rounded-md bg-purple-700 hover:bg-purple-900 text-white mr-2 group cursor-pointer`}
+      class={color}
     >
       {logo}
       {props.title}

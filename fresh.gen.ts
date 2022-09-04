@@ -4,12 +4,11 @@
 
 import * as $0 from "./routes/_404.tsx";
 import * as $1 from "./routes/index.tsx";
-import * as $$0 from "./islands/Education.tsx";
-import * as $$1 from "./islands/Experience.tsx";
-import * as $$2 from "./islands/Footer.tsx";
-import * as $$3 from "./islands/Hero.tsx";
-import * as $$4 from "./islands/Projects.tsx";
-import * as $$5 from "./islands/Skills.tsx";
+import * as $$0 from "./islands/Experience.tsx";
+import * as $$1 from "./islands/Footer.tsx";
+import * as $$2 from "./islands/Hero.tsx";
+import * as $$3 from "./islands/Projects.tsx";
+import * as $$4 from "./islands/Skills.tsx";
 
 const manifest = {
   routes: {
@@ -17,12 +16,11 @@ const manifest = {
     "./routes/index.tsx": $1,
   },
   islands: {
-    "./islands/Education.tsx": $$0,
-    "./islands/Experience.tsx": $$1,
-    "./islands/Footer.tsx": $$2,
-    "./islands/Hero.tsx": $$3,
-    "./islands/Projects.tsx": $$4,
-    "./islands/Skills.tsx": $$5,
+    "./islands/Experience.tsx": $$0,
+    "./islands/Footer.tsx": $$1,
+    "./islands/Hero.tsx": $$2,
+    "./islands/Projects.tsx": $$3,
+    "./islands/Skills.tsx": $$4,
   },
   baseUrl: import.meta.url,
 };

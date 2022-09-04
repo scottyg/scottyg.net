@@ -11,7 +11,6 @@ import { favicon } from "../favicon.ts";
 import Hero from "../islands/Hero.tsx";
 import Experience from "../islands/Experience.tsx";
 import Skills from "../islands/Skills.tsx";
-import Education from "../islands/Education.tsx";
 import Projects from "../islands/Projects.tsx";
 import Footer from "../islands/Footer.tsx";
 
@@ -85,51 +84,78 @@ export default function Home() {
       "rating": 100,
     },
     {
-      "title": "Vue / React",
-      "rating": 80,
+      "title": "MySQL / MariaDB",
+      "rating": 95,
     },
     {
       "title": "Node.js / Deno",
-      "rating": 85,
-    },
-    {
-      "title": "MySQL / MariaDB",
       "rating": 90,
     },
     {
+      "title": "Vue / React",
+      "rating": 85,
+    },
+    {
       "title": "MongoDB",
+      "rating": 80,
+    },
+    {
+      "title": "AWS",
       "rating": 70,
     },
     {
       "title": "C / C# / C++",
       "rating": 50,
     },
+  ];  
+  
+  const skills2 = [
+    {
+      "title": "Adobe Photoshop",
+      "rating": 100,
+    },
+    {
+      "title": "Adobe Illustrator",
+      "rating": 100,
+    },
+    {
+      "title": "Adobe Animate",
+      "rating": 90,
+    },
+    {
+      "title": "Adobe XD",
+      "rating": 80,
+    },
+    {
+      "title": "Blender",
+      "rating": 80,
+    },
+    {
+      "title": "Adobe After Effects",
+      "rating": 70,
+    },
+    {
+      "title": "Unity",
+      "rating": 60,
+    }
   ];
 
-  const education = [
+  const skills3 = [
     {
-      "school": "University of Nevada, Las Vegas",
-      "degree": "BS Computer Science",
-      "year": "Current",
-    },
-
-    {
-      "school": "College of Southern Nevada",
-      "degree": "AS Computing  & Information Technology",
-      "year": "2022",
+      "title": "Management",
+      "rating": 100,
     },
     {
-      "school": "Art Institute of Las Vegas",
-      "degree": "BS Media Arts and Animation",
-      "year": "2010",
-    },
+      "title": "Scrum Master",
+      "rating": 100,
+    }
   ];
 
   const projects = [
     {
       "title": "Forcem Ipsum",
       "description":
-        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website, a <a href='https://deno.land/x/forcemipsum' target='_blank'>Deno Module</a> and, as a <a href='https://www.npmjs.com/package/forcem-ipsum' target='_blank'>NPM package</a> to easily be included in your own projects.",
+        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website, a <a href='https://deno.land/x/forcemipsum' target='_blank'>Deno Module</a> and as a <a href='https://www.npmjs.com/package/forcem-ipsum' target='_blank'>NPM package</a> to easily be included in your own projects.",
       "url": "https://forcemipsum.com/",
     },
     {
@@ -230,10 +256,9 @@ export default function Home() {
       <div class={tw`min-h-screen h-full bg-gray-100`}>
         <div class={tw`container mx-auto px-4`}>
           <Hero contacts={contacts} hero={hero} />
-          <div class={tw`gap-4 grid grid-cols-1 md:grid-cols-3`}>
+          <div class={tw`gap-4 sm:flex sm:flex-col md:grid md:grid-cols-3`}>
             <Experience experience={experience} />
-            <Education education={education} />
-            <Skills skills={skills} />
+            <Skills skills={skills} skills2={skills2} skills3={skills3} />
           </div>
           <Projects projects={projects} />
           <Footer contacts={contacts} footer={footer} />

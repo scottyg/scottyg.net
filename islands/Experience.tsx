@@ -16,7 +16,7 @@ interface JobProps {
 export default function Experience(props: ExperienceProps) {
   return (
     <div class={tw`w-full`}>
-      <h2 class={tw`text(2xl md:4xl) mb-4`}>Experience</h2>
+      <h2 class={tw`text(2xl md:4xl) my-4`}>Experience</h2>
       <div class={tw`rounded-lg bg-white shadow-lg p-4`}>
         <div class={tw`gap-4 flex flex-col`}>
           {props.experience.map((job: JobProps) => {
@@ -31,7 +31,11 @@ export default function Experience(props: ExperienceProps) {
             return (
               <div>
                 <h3 class={tw`text(lg) flex items-center`}>
-                  <a href={job.url} target={target} class={tw`text-purple-700 hover:text-purple-900`}>
+                  <a
+                    href={job.url}
+                    target={target}
+                    class={tw`text-purple-700 hover:text-purple-900`}
+                  >
                     {job.company}
                   </a>
                   <span
