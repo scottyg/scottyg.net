@@ -41,18 +41,18 @@ export default function Home() {
 
   const experience = [
     {
-      "company": "Design Studio",
-      "url": "https://designstudio.com",
-      "position": "Developer Manager / Full Stack Developer",
+      "company": "Bitlectro",
+      "url": "https://bitlectrolabs.com/",
+      "position": "Web3 Front End Developer",
       "years": "2022",
       "current": true,
     },
     {
       "company": "Design Studio",
       "url": "https://designstudio.com",
-      "position": "Full Stack Developer",
+      "position": "Developer Manager / Full Stack Developer",
       "years": "2021 - 2022",
-      "current": false,
+      "current": true,
     },
     {
       "company": "Freelance",
