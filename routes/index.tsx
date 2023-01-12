@@ -44,14 +44,14 @@ export default function Home() {
       "company": "Bitlectro",
       "url": "https://bitlectrolabs.com/",
       "position": "Web3 Front End Developer",
-      "years": "2022",
+      "years": "2022 - 2023",
       "current": true,
     },
     {
       "company": "Design Studio",
       "url": "https://designstudio.com",
       "position": "Developer Manager / Full Stack Developer",
-      "years": "2021 - 2022",
+      "years": "2021 - 2023",
       "current": true,
     },
     {
