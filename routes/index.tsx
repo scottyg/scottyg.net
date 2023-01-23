@@ -41,9 +41,9 @@ export default function Home() {
 
   const experience = [
     {
-      "company": "Bitlectro",
-      "url": "https://bitlectrolabs.com/",
-      "position": "Web3 Front End Developer",
+      "company": "Dreamlands",
+      "url": "https://dreamlands.io/",
+      "position": "Web3 Game Developer",
       "years": "2022 - 2023",
       "current": true,
     },
