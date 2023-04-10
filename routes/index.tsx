@@ -76,7 +76,7 @@ export default function Home() {
       "rating": 100,
     },
     {
-      "title": "Javascript",
+      "title": "Javascript / Typescript",
       "rating": 100,
     },
     {
