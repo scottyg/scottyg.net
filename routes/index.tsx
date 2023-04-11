@@ -153,34 +153,22 @@ export default function Home() {
 
   const projects = [
     {
-      "title": "Forcem Ipsum",
+      "title": "American Red Cross",
       "description":
-        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website, a <a href='https://deno.land/x/forcemipsum' target='_blank'>Deno Module</a> and as a <a href='https://www.npmjs.com/package/forcem-ipsum' target='_blank'>NPM package</a> to easily be included in your own projects.",
-      "url": "https://forcemipsum.com/",
+        "Red Cross volunteers and staff work to deliver vital services - from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies. Built multiple components of the website using HTML, CSS and Javascript.",
+      "url": "https://redcross.org/",
     },
     {
-      "title": "http.gives",
+      "title": "Measles & Rubella Partnership",
       "description":
-        "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with <a href='https://laravel.com' target='_blank'>Laravel</a> and <a href='https://tailwindcss.com' target='_blank'>Tailwind</a>.",
-      "url": "https://http.gives/",
-    },
-    {
-      "title": "Scottyg.net",
-      "description":
-        "This website that you are currently reading is built using <a href='https://deno.land/' target='_blank'>Deno</a> and the <a href='https://fresh.deno.dev/' target='_blank'>Fresh</a> framework. It is rendered server side and is deployed serverless on the edge via <a href='https://deno.com/deploy/' target='_blank'>Deno Deploy</a>.",
-      "url": "https://scottyg.net/",
+        "The Measles & Rubella Partnership (M&RP) is led by the American Red Cross, the Bill & Melinda Gates Foundation, Gavi the Vaccine Alliance, the United Nations Foundation, the U.S. Centers for Disease Control and Prevention, UNICEF and the World Health Organization. Built the entire website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>",
+      "url": "https://measlesrubellapartnership.org/",
     },
     {
       "title": "Syndified™",
       "description":
         "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with <a href='https://laravel.com' target='_blank'>Laravel</a>, <a href='https://tailwindcss.com' target='_blank'>Tailwind</a> and <a href='https://vuejs.org/' target='_blank'>Vue</a>.",
       "url": "https://syndified.com/",
-    },
-    {
-      "title": "American Red Cross",
-      "description":
-        "Red Cross volunteers and staff work to deliver vital services - from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies. Built multiple components of the website using HTML, CSS and Javascript.",
-      "url": "https://redcross.org/",
     },
     {
       "title": "Hayes Group International",
@@ -195,9 +183,21 @@ export default function Home() {
       "url": "https://hottubsnw.com/",
     },
     {
+      "title": "This Free Life",
+      "description":
+        "A national anti-tobacco campaign from HHS. Built site using <a href='https://www.drupal.org/' target='_blank'>Drupal</a>.",
+      "url": "https://thisfreelife.betobaccofree.hhs.gov/"
+    },
+    {
+      "title": "Down And Dirty",
+      "description":
+        "An anti-tobacco lifestyle brand directed towards rural youth. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>.",
+      "url": "https://downanddirtylife.com/",
+    },
+    {
       "title": "Syke",
       "description":
-        "Syke is a movement for a tobacco-free music scene. Built their entire website in <a href='https://wordpress.org/' target='_blank'>Wordpress</a> including a custom digital 'zine'.",
+        "Syke is a movement for a tobacco-free music scene. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a> including a custom digital 'zine'.",
       "url": "https://www.sykeva.com/",
     },
     {
@@ -205,6 +205,24 @@ export default function Home() {
       "description":
         "Rev Your Bev is the Virginia Foundation for Healthy Youth’s campaign to encourage Virginians to drink more water. Built custom map component as well as multiple custom quizes using HTML, CSS and Javascript.",
       "url": "https://www.revyourbev.com/",
+    },
+    {
+      "title": "Forcem Ipsum",
+      "description":
+        "The Star Wars text generator. Started in college, I wrote Forcem Ipsum in javascript and it is available as a standalone website, a <a href='https://deno.land/x/forcemipsum' target='_blank'>Deno Module</a> and as a <a href='https://www.npmjs.com/package/forcem-ipsum' target='_blank'>NPM package</a> to easily be included in your own projects.",
+      "url": "https://forcemipsum.com/",
+    },
+    {
+      "title": "http.gives",
+      "description":
+        "http gives, is a free service that allows users to send requests to a specific list of pages that will respond with the desired http status code. Built with <a href='https://laravel.com' target='_blank'>Laravel</a> and <a href='https://tailwindcss.com' target='_blank'>Tailwind</a>.",
+      "url": "https://http.gives/",
+    },
+    {
+      "title": "scottyg.net",
+      "description":
+        "This website that you are currently reading is built using <a href='https://deno.land/' target='_blank'>Deno</a> and the <a href='https://fresh.deno.dev/' target='_blank'>Fresh</a> framework. It is rendered server side and is deployed serverless on the edge via <a href='https://deno.com/deploy/' target='_blank'>Deno Deploy</a>.",
+      "url": "https://scottyg.net/",
     },
   ];
 
