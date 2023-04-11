@@ -161,7 +161,7 @@ export default function Home() {
     {
       "title": "Measles & Rubella Partnership",
       "description":
-        "The Measles & Rubella Partnership (M&RP) is led by the American Red Cross, the Bill & Melinda Gates Foundation, Gavi the Vaccine Alliance, the United Nations Foundation, the U.S. Centers for Disease Control and Prevention, UNICEF and the World Health Organization. Built the entire website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>",
+        "The Measles & Rubella Partnership (M&RP) is led by the American Red Cross, the Bill & Melinda Gates Foundation, Gavi the Vaccine Alliance, the United Nations Foundation, the U.S. Centers for Disease Control and Prevention, UNICEF and the World Health Organization. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>",
       "url": "https://measlesrubellapartnership.org/",
     },
     {
@@ -173,19 +173,19 @@ export default function Home() {
     {
       "title": "Hayes Group International",
       "description":
-        "Built a custom map that displays the countries where Hayes Group International is located. The map is built using Javascript, CSS, and SVGs.",
+        "Built a custom map that displays the countries where Hayes Group International is located. The map is built using Javascript, CSS, and SVGs. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>.",
       "url": "https://hayesgroupinternational.com/",
     },
     {
       "title": "Hot Tubs NW",
       "description":
-        "Hot Tub Dealer based in Washington. Build various aspects of the website including a custom 'My Account Dashboard', where customers can easily see porducts they have purchased in store, order service calls and manage product subscriptions.",
+        "Hot Tub Dealer based in Washington. Build various aspects of the website including a custom 'My Account Dashboard', where customers can easily see porducts they have purchased in store, order service calls and manage product subscriptions. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>.",
       "url": "https://hottubsnw.com/",
     },
     {
       "title": "This Free Life",
       "description":
-        "A national anti-tobacco campaign from HHS. Built site using <a href='https://www.drupal.org/' target='_blank'>Drupal</a>.",
+        "A national anti-tobacco campaign from <a href='https://www.hhs.gov/' target='_blank'>HHS</a>. Built site using <a href='https://www.drupal.org/' target='_blank'>Drupal</a>.",
       "url": "https://thisfreelife.betobaccofree.hhs.gov/"
     },
     {
