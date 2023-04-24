@@ -50,7 +50,7 @@ export default function Home() {
     {
       "company": "Design Studio",
       "url": "https://designstudio.com",
-      "position": "Developer Manager / Full Stack Developer",
+      "position": "Developer Manager / Full Stack Web Developer",
       "years": "2021 - 2023",
       "current": false,
     },
