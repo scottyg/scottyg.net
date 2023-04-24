@@ -16,14 +16,14 @@ import Footer from "../islands/Footer.tsx";
 
 export default function Home() {
   const meta = {
-    "title": "Scott Gordon - Full Stack Developer",
+    "title": "Scott Gordon - Software Engineer",
     "description": "",
     "favicon": favicon,
   };
 
   const hero = {
     "heading": "Hello. I'm Scott Gordon,",
-    "sub_heading": "a Full Stack Developer.",
+    "sub_heading": "a Software Engineer.",
     "image": image,
     "image_alt": "Scott Gordon",
   };
@@ -57,14 +57,14 @@ export default function Home() {
     {
       "company": "Freelance",
       "url": "#",
-      "position": "Web Developer",
+      "position": "Full Stack Web Developer",
       "years": "2003 - 2013 / 2016 - 2021",
       "current": false,
     },
     {
       "company": "Rescue Agency",
       "url": "https://rescueagency.com",
-      "position": "Web Developer",
+      "position": "Full Stack Web Developer",
       "years": "2013 - 2016",
       "current": false,
     },
