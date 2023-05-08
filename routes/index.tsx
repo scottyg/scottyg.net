@@ -41,11 +41,20 @@ export default function Home() {
 
   const experience = [
     {
+      "company": "Switch",
+      "url": "https://www.switch.com/",
+      "position": "Software Engineer III - Front End",
+      "years": "2023",
+      "current": true,
+      "fulltime": true,
+    },
+    {
       "company": "Dreamlands",
       "url": "https://dreamlands.io/",
       "position": "Web3 Game Developer",
       "years": "2022 - 2023",
       "current": true,
+      "fulltime": false,
     },
     {
       "company": "Design Studio",
@@ -53,6 +62,7 @@ export default function Home() {
       "position": "Developer Manager / Full Stack Web Developer",
       "years": "2021 - 2023",
       "current": false,
+      "fulltime": false,
     },
     {
       "company": "Freelance",
@@ -60,6 +70,7 @@ export default function Home() {
       "position": "Full Stack Web Developer",
       "years": "2003 - 2013 / 2016 - 2021",
       "current": false,
+      "fulltime": false,
     },
     {
       "company": "Rescue Agency",
@@ -67,6 +78,7 @@ export default function Home() {
       "position": "Full Stack Web Developer",
       "years": "2013 - 2016",
       "current": false,
+      "fulltime": false,
     },
   ];
 
@@ -118,10 +130,10 @@ export default function Home() {
       "title": "Adobe Illustrator",
       "rating": 100,
     },
-    {
-      "title": "Adobe Animate",
-      "rating": 90,
-    },
+    // {
+    //   "title": "Adobe Animate",
+    //   "rating": 90,
+    // },
     {
       "title": "Adobe XD",
       "rating": 80,

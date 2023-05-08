@@ -11,6 +11,7 @@ interface JobProps {
   position: string;
   years: string;
   url: string;
+  fulltime: boolean;
 }
 
 export default function Experience(props: ExperienceProps) {
@@ -42,7 +43,10 @@ export default function Experience(props: ExperienceProps) {
                     class={tw`bg-purple-700 px-2 text-sm text-white rounded-full  ml-2`}
                     style={current}
                   >
-                    Current
+                    {job.fulltime &&
+                      <span>Full Time</span>}
+                    {!job.fulltime &&
+                      <span>Part Time</span>}
                   </span>
                 </h3>
                 <h4 class={tw`text(base)`}>{job.position}</h4>

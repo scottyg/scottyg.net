@@ -36,23 +36,9 @@ export default function Skills(props: SkillsProps) {
               </div>
             );
           })} 
+          
           </div>
           <div class={tw`flex flex-col gap-2`}>
-          {props.skills3.map((skill: SkillProps) => {
-            const rating = "width: " + skill.rating + "%";
-            return (
-              <div class={tw``}>
-                <div class={tw`w-full bg-gray-300`}>
-                  <div
-                    style={rating}
-                    class={tw`px-2 py-1 bg-blue-400 text(white sm`}
-                  >
-                    {skill.title}
-                  </div>
-                </div>
-              </div>
-            );
-          })}
           {props.skills2.map((skill: SkillProps) => {
             const rating = "width: " + skill.rating + "%";
             return (
