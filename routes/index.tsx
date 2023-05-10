@@ -43,7 +43,7 @@ export default function Home() {
     {
       "company": "Switch",
       "url": "https://www.switch.com/",
-      "position": "Software Engineer III - Front End",
+      "position": "Software Engineer III",
       "years": "2023",
       "current": true,
       "fulltime": true,
