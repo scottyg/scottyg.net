@@ -282,17 +282,6 @@ export default function Home() {
           name="twitter:image"
           content="http://scottyg.net/ScottGordon.png"
         />
-
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6179Z636TR"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-6179Z636TR');
-        </script>
-
       </Head>
       <div class={tw`min-h-screen h-full bg-gray-100`}>
         <div class={tw`container mx-auto px-4`}>
