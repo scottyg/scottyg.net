@@ -36,7 +36,7 @@ export function ContactButton(props: ButtonProps) {
         width="256px" 
         version="1.1"
       	xmlns="http://www.w3.org/2000/svg" 
-      	viewBox="0 0 310 310"
+      	viewBox="0 0 310 350"
         preserveAspectRatio="xMidYMid"
         class={tw`w-4 h-4 inline-block -mt-1 mr-1 text-white fill-current stroke-transparent`}
         >
