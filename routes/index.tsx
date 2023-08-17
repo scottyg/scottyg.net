@@ -34,8 +34,8 @@ export default function Home() {
       url: "https://github.com/scottyg/",
     },
     {
-      title: "Twitter",
-      url: "https://twitter.com/scottygfunk/",
+      title: "LinkedIn",
+      url: "https://www.linkedin.com/in/scottyg-engineer/",
     },
   ];
 
