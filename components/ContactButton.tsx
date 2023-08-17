@@ -29,12 +29,15 @@ export function ContactButton(props: ButtonProps) {
       </svg>
     );
   } else if(props.title == "LinkedIn"){
-
     color = tw`px-2 py-1 inline-block rounded-md bg-blue-400 hover:bg-blue-700 text-white mr-2 group cursor-pointer`;
     logo = (
-      <svg fill="#000000" height="256px" width="256px" version="1.1" id="Layer_1"
-      	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      	viewBox="0 0 310 310" xml:space="preserve"
+      <svg 
+        height="256px" 
+        width="256px" 
+        version="1.1"
+      	xmlns="http://www.w3.org/2000/svg" 
+      	viewBox="0 0 310 310"
+        preserveAspectRatio="xMidYMid"
         class={tw`w-4 h-4 inline-block -mt-1 mr-1 text-white fill-current stroke-transparent`}
         >
       	<g id="XMLID_801_">
