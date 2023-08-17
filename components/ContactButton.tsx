@@ -57,6 +57,7 @@ export function ContactButton(props: ButtonProps) {
     <a
       href={props.href}
       class={color}
+      target="_blank"
     >
       {logo}
       {props.title}
