@@ -1,8 +1,4 @@
-/** @jsx h */
 import { Head } from "$fresh/runtime.ts";
-import { h } from "preact";
-import { tw } from "@twind";
-
 /* Base 64 Images */
 import { image } from "../image.ts";
 import { favicon } from "../favicon.ts";
@@ -283,10 +279,10 @@ export default function Home() {
           content="http://scottyg.net/ScottGordon.png"
         />
       </Head>
-      <div class={tw`min-h-screen h-full bg-gray-100`}>
-        <div class={tw`container mx-auto px-4`}>
+      <div class="min-h-screen h-full bg-gray-100">
+        <div class="container mx-auto px-4">
           <Hero contacts={contacts} hero={hero} />
-          <div class={tw`gap-4 sm:flex sm:flex-col md:grid md:grid-cols-3`}>
+          <div class="gap-4 sm:flex sm:flex-col md:grid md:grid-cols-3">
             <Experience experience={experience} />
             <Skills skills={skills} skills2={skills2} skills3={skills3} />
           </div>

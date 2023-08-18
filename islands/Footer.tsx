@@ -1,7 +1,3 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
-
 import { ContactButton } from "../components/ContactButton.tsx";
 
 interface FooterProps {
@@ -22,9 +18,9 @@ interface FooterContentProps {
 export default function Footer(props: FooterProps) {
   return (
     <div>
-      <div class={tw`my-24`}>
-        <h2 class={tw`text(2xl md:4xl center)`}>{props.footer.cta}</h2>
-        <div class={tw`flex align-center mt-4 justify-center`}>
+      <div class="my-24">
+        <h2 class="text(2xl md:4xl center)">{props.footer.cta}</h2>
+        <div class="flex align-center mt-4 justify-center">
           {props.contacts.map((contact: ContactProps) => {
             return (
               <ContactButton href={contact.url} target="_blank" title={contact.title}/>
@@ -32,15 +28,15 @@ export default function Footer(props: FooterProps) {
           })}
         </div>
       </div>
-      <div class={tw`flex justify-between py-4`}>
+      <div class="flex justify-between py-4">
         <div>
           {props.footer.copy}
         </div>
-        <div class={tw`flex gap-2`}>
+        <div class="flex gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 36 36"
-            class={tw`w-6 h-6`}
+            class="w-6 h-6"
           >
             <ellipse fill="#99AAB5" cx="18" cy="26" rx="18" ry="10" />
             <ellipse fill="#CCD6DD" cx="18" cy="24" rx="18" ry="10" />
