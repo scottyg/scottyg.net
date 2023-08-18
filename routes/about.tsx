@@ -1,10 +1,13 @@
 /* Islands */
 import Navigation from "../components/Navigation.tsx";
-import HomeHero from "../components/HomeHero.tsx";
-import BlogArchive from "../components/BlogArchive.tsx";
+import AboutHero from "../components/AboutHero.tsx";
+import Experience from "../components/Experience.tsx";
+import Skills from "../components/Skills.tsx";
+import Clients from "../components/Clients.tsx";
 import Footer from "../components/Footer.tsx";
 
 export default function Home() {
+
   function createMarkup() {
     return {
       __html: `
@@ -20,8 +23,10 @@ export default function Home() {
       <div class="min-h-screen h-full">
         <div class="container mx-auto px-4">
           <Navigation />
-          <HomeHero />
-          <BlogArchive />
+          <AboutHero />
+          <Experience />
+          <Clients />
+          <Skills />
           <Footer />
         </div>
       </div>
