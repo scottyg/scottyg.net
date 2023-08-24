@@ -76,7 +76,7 @@ export default function Experience() {
                     {job.company}
                   </a>
                   <span
-                    class="bg-green-400 px-2 text-sm text-white rounded-full  ml-2"
+                    class="bg-green-400 px-2 text-sm text-white dark:text-gray-900 rounded-full  ml-2"
                     style={current}
                   >
                     {job.fulltime &&
