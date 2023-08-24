@@ -1,14 +1,16 @@
 export default function NavigationLinks() {
   return (
     <ul class="flex-col md:flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium">
-      <li>
+      {
+        /* <li>
         <a
           href="/"
           class="h-7 text-gray-700 md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
         >
           Blog
         </a>
-      </li>
+      </li> */
+      }
       <li>
         <a
           href="/about"
