@@ -8,7 +8,7 @@ const projects = [
   {
     "title": "American Red Cross",
     "description":
-      "Red Cross volunteers and staff work to deliver vital services - from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies. Built multiple components of the website using HTML, CSS and Javascript.",
+      "Red Cross volunteers and staff work to deliver vital services - from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies. Built multiple components of the website using modern web techniques.",
     "url": "https://redcross.org/",
   },
   {

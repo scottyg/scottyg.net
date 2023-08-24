@@ -1,9 +1,3 @@
-/* Components */
-import Navigation from "../components/Navigation.tsx";
-import HomeHero from "../components/HomeHero.tsx";
-import BlogArchive from "../components/BlogArchive.tsx";
-import Footer from "../components/Footer.tsx";
-
 export default function Home() {
   return (
     <div>
