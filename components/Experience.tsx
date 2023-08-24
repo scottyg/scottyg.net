@@ -7,7 +7,6 @@ interface JobProps {
   fulltime: boolean;
 }
 
-
 const experience = [
   {
     "company": "Switch",

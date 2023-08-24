@@ -1,14 +1,16 @@
 import { AppProps } from "$fresh/server.ts";
 
 /* Base 64 Images */
-import { favicon } from "../favicon.ts";
+import { favicon } from "../utils/favicon.ts";
+
+import Navigation from "../components/Navigation.tsx";
+import Footer from "../components/Footer.tsx";
 
 const meta = {
   "title": "Scott Gordon - Software Engineer",
   "description": "",
   "favicon": favicon,
 };
-
 
 export default function App({ Component }: AppProps) {
   return (
@@ -52,7 +54,7 @@ export default function App({ Component }: AppProps) {
         >
         </link>
       </head>
-      <body>
+      <body class="h-screen py-2 px-4">
         <style>
           {`
             body {
@@ -60,7 +62,11 @@ export default function App({ Component }: AppProps) {
             }
           `}
         </style>
-        <Component />
+        <div class="container mx-auto h-full flex flex-col justify-between">
+          <Navigation />
+          <Component />
+          <Footer />
+        </div>
       </body>
     </html>
   );

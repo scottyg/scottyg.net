@@ -1,4 +1,4 @@
-/* Islands */
+/* Components */
 import Navigation from "../components/Navigation.tsx";
 import HomeHero from "../components/HomeHero.tsx";
 import BlogArchive from "../components/BlogArchive.tsx";
@@ -17,13 +17,9 @@ export default function Home() {
   }
   return (
     <div>
-      <div class="min-h-screen h-full">
-        <div class="container mx-auto px-4">
-          <Navigation />
-          <HomeHero />
-          <BlogArchive />
-          <Footer />
-        </div>
+      <div class="container mx-auto px-4">
+        <HomeHero />
+        {/* <BlogArchive /> */}
       </div>
       <style dangerouslySetInnerHTML={createMarkup()}></style>
     </div>

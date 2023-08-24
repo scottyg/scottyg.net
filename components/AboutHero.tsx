@@ -1,24 +1,29 @@
-import { image } from "../image.ts";
-
 export default function AboutHero() {
   return (
     <div>
-      <div class="py-12 gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  items-center">
-      <div class="flex justify-center md:hidden">
+      <div class="py-12 gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
+        <div class="flex justify-center md:hidden">
           <img
-            src={image}
+            src="/ScottGordon.png"
             alt="Scott Gordon"
             width="260"
             height="260"
             class="rounded-full bg-green-300"
           />
         </div>
-        <p>
-          Hello. I'm Scott Gordon, an experienced Software Engineer with over 20 years in the web development industry. Proficient in a diverse range of technologies with a proven track record as a self-starter and rapid learner. Continually seeking new challenges and professional growth opportunities.
-        </p>
+        <div>
+          <h1 class="text(2xl md:3xl) pb-4">Hello. I'm Scott Gordon,</h1>
+          <p>
+            an experienced Software Engineer with over 20 years in the web
+            development industry. Proficient in a diverse range of technologies
+            with a proven track record as a self-starter and rapid learner.
+            Continually seeking new challenges and professional growth
+            opportunities.
+          </p>
+        </div>
         <div class="hidden md:flex justify-center">
           <img
-            src={image}
+            src="/ScottGordon.png"
             alt="Scott Gordon"
             width="260"
             height="260"

@@ -25,14 +25,15 @@ const projects = [
   },
   {
     "title": "Olympic Hot Tub",
-    "description": "Olympic Hot Tub is a hot tub retailer in the Seattle area. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>.",
+    "description":
+      "Olympic Hot Tub is a hot tub retailer in the Seattle area. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>.",
     "url": "https://olympichottub.com/",
   },
   {
     "title": "This Free Life",
     "description":
       "A national anti-tobacco campaign from <a href='https://www.hhs.gov/' target='_blank'>HHS</a>. Built site using <a href='https://www.drupal.org/' target='_blank'>Drupal</a>.",
-    "url": "https://thisfreelife.betobaccofree.hhs.gov/"
+    "url": "https://thisfreelife.betobaccofree.hhs.gov/",
   },
   {
     "title": "Rev Your Bev",
@@ -62,7 +63,11 @@ export default function Clients() {
                   {project.title}
                 </a>
               </h3>
-              <div class="text-sm text-gray-500" dangerouslySetInnerHTML={createMarkup()}></div>
+              <div
+                class="text-sm text-gray-500"
+                dangerouslySetInnerHTML={createMarkup()}
+              >
+              </div>
             </div>
           );
         })}
