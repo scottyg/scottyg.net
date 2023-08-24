@@ -14,31 +14,31 @@ const projects = [
   {
     "title": "Measles & Rubella Partnership",
     "description":
-      "The Measles & Rubella Partnership (M&RP) is led by the American Red Cross, the Bill & Melinda Gates Foundation, Gavi the Vaccine Alliance, the United Nations Foundation, the U.S. Centers for Disease Control and Prevention, UNICEF and the World Health Organization. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>",
+      "The Measles & Rubella Partnership (M&RP) is led by the American Red Cross, the Bill & Melinda Gates Foundation, Gavi the Vaccine Alliance, the United Nations Foundation, the U.S. Centers for Disease Control and Prevention, UNICEF and the World Health Organization. Built website using <a href='https://wordpress.org/' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>Wordpress</a>",
     "url": "https://measlesrubellapartnership.org/",
   },
   {
     "title": "Syndified™",
     "description":
-      "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with <a href='https://laravel.com' target='_blank'>Laravel</a>, <a href='https://tailwindcss.com' target='_blank'>Tailwind</a> and <a href='https://vuejs.org/' target='_blank'>Vue</a>.",
+      "Syndified™ software helps brands facilitate commerce, faster, by syndicating content directly to the websites of their dealers. Manage team that creates Saas product with regular sprints for new features. Syndified™ is built with <a href='https://laravel.com' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>Laravel</a>, <a href='https://tailwindcss.com' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>Tailwind</a> and <a href='https://vuejs.org/' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>Vue</a>.",
     "url": "https://syndified.com/",
   },
   {
     "title": "Olympic Hot Tub",
     "description":
-      "Olympic Hot Tub is a hot tub retailer in the Seattle area. Built website using <a href='https://wordpress.org/' target='_blank'>Wordpress</a>.",
+      "Olympic Hot Tub is a hot tub retailer in the Seattle area. Built website using <a href='https://wordpress.org/' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>Wordpress</a>.",
     "url": "https://olympichottub.com/",
   },
   {
     "title": "This Free Life",
     "description":
-      "A national anti-tobacco campaign from <a href='https://www.hhs.gov/' target='_blank'>HHS</a>. Built site using <a href='https://www.drupal.org/' target='_blank'>Drupal</a>.",
+      "A national anti-tobacco campaign from <a href='https://www.hhs.gov/' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>HHS</a>. Built site using <a href='https://www.drupal.org/' target='_blank' class='text-red-400 hover:text-red-600 hover:underline'>Drupal</a>.",
     "url": "https://thisfreelife.betobaccofree.hhs.gov/",
   },
   {
     "title": "Rev Your Bev",
     "description":
-      "Rev Your Bev is the Virginia Foundation for Healthy Youth’s campaign to encourage Virginians to drink more water. Built custom map component as well as multiple custom quizes using HTML, CSS and Javascript.",
+      "Rev Your Bev is the Virginia Foundation for Healthy Youth’s campaign to encourage Virginians to drink more water. Built custom map component as well as multiple custom quizes using modern web techniques.",
     "url": "https://www.revyourbev.com/",
   },
 ];

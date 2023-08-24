@@ -1,7 +1,7 @@
 export default function AboutHero() {
   return (
     <div>
-      <div class="py-12 gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
+      <div class="pt-12 md:pb-12 gap-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
         <div class="flex justify-center md:hidden">
           <img
             src="/ScottGordon.png"
