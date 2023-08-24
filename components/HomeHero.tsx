@@ -11,7 +11,7 @@ export default function HomeHero() {
           />
         </div>
         <div>
-          <h1 class="text(2xl center md:4xl)">
+          <h1 class="text(2xl center md:4xl) dark:text-white">
             Hello. I'm Scott Gordon,
             <br />
             a Software Engineer.

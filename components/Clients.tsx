@@ -46,7 +46,7 @@ const projects = [
 export default function Clients() {
   return (
     <div class="w-full">
-      <h2 class="text(2xl md:left) my-8">Client Work</h2>
+      <h2 class="text(2xl md:left) my-8 dark:text-white">Client Work</h2>
       <div class="gap-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {projects.map((project: ProjectProps) => {
           function createMarkup() {
@@ -64,7 +64,7 @@ export default function Clients() {
                 </a>
               </h3>
               <div
-                class="text-sm text-gray-500"
+                class="text-sm dark:text-white"
                 dangerouslySetInnerHTML={createMarkup()}
               >
               </div>

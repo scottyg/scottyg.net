@@ -54,7 +54,7 @@ export default function App({ Component }: AppProps) {
         >
         </link>
       </head>
-      <body class="h-screen py-2 px-4">
+      <body class="h-screen py-4 px-8 dark:bg-gray-900">
         <style>
           {`
             body {

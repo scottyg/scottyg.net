@@ -53,7 +53,7 @@ const experience = [
 export default function Experience() {
   return (
     <div class="w-full">
-      <h2 class="text(2xl) my-8">Experience</h2>
+      <h2 class="text(2xl) my-8 dark:text-white">Experience</h2>
       <div class="">
         <div class="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {experience.map((job: JobProps) => {
@@ -85,7 +85,9 @@ export default function Experience() {
                       <span>Part Time</span>}
                   </span>
                 </h3>
-                <h4 class="text(base gray-900)">{job.position}</h4>
+                <h4 class="text(base gray-900) dark:text-white">
+                  {job.position}
+                </h4>
                 <p class="text(sm gray-500)">{job.years}</p>
               </div>
             );

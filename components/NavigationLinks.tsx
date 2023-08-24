@@ -5,7 +5,7 @@ export default function NavigationLinks() {
         /* <li>
         <a
           href="/"
-          class="h-7 text-gray-700 md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
+          class="h-7 dark:text-white md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
         >
           Blog
         </a>
@@ -14,7 +14,7 @@ export default function NavigationLinks() {
       <li>
         <a
           href="/about"
-          class="h-7 text-gray-700 md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
+          class="h-7 dark:text-white md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
         >
           About
         </a>
@@ -23,7 +23,7 @@ export default function NavigationLinks() {
         <a
           href="https://github.com/scottyg/"
           target="_blank"
-          class="hover:text-gray-500"
+          class="text-gray-500 dark:text-white md:text-black hover:text-gray-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function NavigationLinks() {
         <a
           href="https://www.linkedin.com/in/scottyg-engineer/"
           target="_blank"
-          class="hover:text-blue-700"
+          class="text-blue-700 dark:text-white md:text-black hover:text-blue-700"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -59,11 +59,11 @@ export default function NavigationLinks() {
       <li>
         <a
           href="mailto:hello@scottyg.net"
-          class="hover:text-purple-700"
+          class="text-purple-700 dark:text-white md:text-black hover:text-purple-700"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-5 h-5"
+            class="w-5 h-5 ml-1"
             viewBox="0 0 15 15"
           >
             <path

@@ -6,14 +6,7 @@ export default function Navigation() {
       <nav class="border-gray-200 my-4">
         <div class="w-full mx-auto">
           <div class="flex flex-wrap items-center justify-between">
-            <a href="/" class="flex items-center group">
-              <img
-                src="/ScottGordon.png"
-                alt="Scotty G"
-                width="260"
-                height="260"
-                class="h-6 w-6 mr-2"
-              />
+            <a href="/" class="flex items-center group dark:text-white">
               <span class="self-center text-2xl font-light whitespace-nowrap group-hover:underline">
                 Scotty G
               </span>
@@ -22,7 +15,7 @@ export default function Navigation() {
               <button
                 data-collapse-toggle="mobile-menu-3"
                 type="button"
-                class="md:hidden text-gray-400 hover:text-gray-900 rounded-lg inline-flex items-center justify-center"
+                class="md:hidden text-gray-400 hover:text-gray-900 dark:text-white rounded-lg inline-flex items-center justify-center"
                 aria-controls="mobile-menu-3"
                 aria-expanded="false"
               >

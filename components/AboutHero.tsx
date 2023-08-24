@@ -11,8 +11,10 @@ export default function AboutHero() {
           />
         </div>
         <div>
-          <h1 class="text(2xl md:3xl) pb-4">Hello. I'm Scott Gordon,</h1>
-          <p>
+          <h1 class="text(2xl md:3xl) pb-4 dark:text-white">
+            Hello. I'm Scott Gordon,
+          </h1>
+          <p class="dark:text-white">
             an experienced Software Engineer with over 20 years in the web
             development industry. Proficient in a diverse range of technologies
             with a proven track record as a self-starter and rapid learner.
@@ -29,7 +31,7 @@ export default function AboutHero() {
           />
         </div>
         <div>
-          <h2 class="text(2xl) mb-4">
+          <h2 class="text(2xl) mb-4 dark:text-white">
             Projects
           </h2>
           <ul class="flex flex-col gap-4">
@@ -40,7 +42,7 @@ export default function AboutHero() {
               >
                 Forcem Ipsum
               </a>
-              <p>The Star Wars text generator</p>
+              <p class="dark:text-white">The Star Wars text generator</p>
             </li>
             <li>
               <a
@@ -49,7 +51,7 @@ export default function AboutHero() {
               >
                 http.gives
               </a>
-              <p>HTTP status code tester</p>
+              <p class="dark:text-white">HTTP status code tester</p>
             </li>
           </ul>
         </div>
