@@ -12,7 +12,7 @@ export default function Navigation() {
                 alt="Scotty G"
                 width="260"
                 height="260"
-                class="rounded-full bg-green-300 h-6 w-6 mr-2"
+                class="h-6 w-6 mr-2"
               />
               <span class="self-center text-2xl font-light whitespace-nowrap group-hover:underline">
                 Scotty G

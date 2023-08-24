@@ -8,7 +8,6 @@ export default function HomeHero() {
             alt="Scott Gordon"
             width="260"
             height="260"
-            class="rounded-full bg-green-300"
           />
         </div>
         <div>
