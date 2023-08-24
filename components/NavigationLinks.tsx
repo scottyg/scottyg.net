@@ -1,19 +1,6 @@
-import { PageProps } from "$fresh/server.ts";
-
-interface NavigationLinksProps {
-  parent: string;
-}
-
-export default function NavigationLinks(props: NavigationLinksProps) {
-  let parentClasses =
-    "flex-col md:flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium";
-  if (props.parent === "footer") {
-    parentClasses =
-      "flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium";
-  }
-
+export default function NavigationLinks() {
   return (
-    <ul class={parentClasses}>
+    <ul class="flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium">
       {
         /* <li>
         <a

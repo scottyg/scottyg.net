@@ -1,10 +1,6 @@
 import NavigationLinks from "./NavigationLinks.tsx";
 
-interface NavigationProps {
-  parent: string;
-}
-
-export default function Navigation(props: NavigationProps) {
+export default function Navigation() {
   return (
     <div>
       <nav class="border-gray-200 my-4">
@@ -64,7 +60,7 @@ export default function Navigation(props: NavigationProps) {
               id="mobile-menu-3"
             >
               <ul class="flex-col md:flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium">
-                <NavigationLinks parent={props.parent} />
+                <NavigationLinks />
               </ul>
             </div>
           </div>
