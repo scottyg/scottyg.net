@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <div class="flex justify-between items-center  flex-col md:flex-row my-8 gap-4">
         <ul class="flex align-center justify-center gap-4">
-          <NavigationLinks />
+          <NavigationLinks parent="footer" />
         </ul>
         <div>
           Scotty G {footer.copy}
