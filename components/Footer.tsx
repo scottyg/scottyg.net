@@ -13,7 +13,7 @@ export default function Footer() {
         <ul class="flex align-center justify-center gap-4">
           <NavigationLinks />
         </ul>
-        <div class="dark:text-white">
+        <div class="dark:text-white font-light">
           Scotty G {footer.copy}
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function AboutHero() {
           />
         </div>
         <div>
-          <h1 class="text(2xl md:3xl) pb-4 dark:text-white">
+          <h1 class="text(2xl) pb-4 dark:text-white font-light">
             Hello. I'm Scott Gordon,
           </h1>
           <p class="dark:text-white">
@@ -31,7 +31,7 @@ export default function AboutHero() {
           />
         </div>
         <div>
-          <h2 class="text(2xl) mb-4 dark:text-white">
+          <h2 class="text(2xl) mb-4 dark:text-white font-light">
             Projects
           </h2>
           <ul class="flex flex-col gap-4">

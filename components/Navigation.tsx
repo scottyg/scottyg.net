@@ -15,7 +15,7 @@ export default function Navigation() {
               <button
                 data-collapse-toggle="mobile-menu-3"
                 type="button"
-                class="md:hidden text-gray-400 hover:text-gray-900 dark:text-white rounded-lg inline-flex items-center justify-center"
+                class="md:hidden text-gray-400 hover:text-gray-900 dark:text-white dark:hover:text-white rounded-lg inline-flex items-center justify-center"
                 aria-controls="mobile-menu-3"
                 aria-expanded="false"
               >

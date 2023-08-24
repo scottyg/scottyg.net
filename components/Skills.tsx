@@ -3,7 +3,7 @@ import { Chart } from "https://deno.land/x/fresh_charts/mod.ts";
 export default function Skills() {
   return (
     <div>
-      <h2 class="text(2xl md:left) my-8 dark:text-white">Skills</h2>
+      <h2 class="text(2xl md:left) my-8 dark:text-white font-light">Skills</h2>
       <div class="w-full max-w-4xl">
         <Chart
           type="bar"

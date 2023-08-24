@@ -23,7 +23,7 @@ export default function NavigationLinks() {
         <a
           href="https://github.com/scottyg/"
           target="_blank"
-          class="text-gray-500 dark:text-white md:text-black hover:text-gray-500"
+          class="text-gray-500 hover:text-gray-300"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function NavigationLinks() {
         <a
           href="https://www.linkedin.com/in/scottyg-engineer/"
           target="_blank"
-          class="text-blue-700 dark:text-white md:text-black hover:text-blue-700"
+          class="text-blue-700 hover:text-blue-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export default function NavigationLinks() {
       <li>
         <a
           href="mailto:hello@scottyg.net"
-          class="text-purple-700 dark:text-white md:text-black hover:text-purple-700"
+          class="text-purple-700 hover:text-purple-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
