@@ -1,34 +1,29 @@
+import Link from "next/link";
+
 export default function NavigationLinks() {
   return (
-    <ul class="flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium">
-      {
-        /* <li>
-        <a
-          href="/"
-          class="h-7 dark:text-white md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
-        >
-          Blog
-        </a>
-      </li> */
-      }
+    <ul className="flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium">
       <li>
-        <a
+        <Link
           href="/about"
-          class="h-7 dark:text-white md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
+          className="h-7 dark:text-white md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
         >
           About
-        </a>
+        </Link>
       </li>
       <li>
         <a
           href="https://github.com/scottyg/"
           target="_blank"
-          class="text-gray-500 hover:text-gray-300"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          className="text-gray-500 hover:text-gray-300"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 15 15"
-            class="w-5 h-5"
+            className="w-5 h-5"
+            aria-hidden="true"
           >
             <path
               fill="currentColor"
@@ -41,12 +36,15 @@ export default function NavigationLinks() {
         <a
           href="https://www.linkedin.com/in/scottyg-engineer/"
           target="_blank"
-          class="text-blue-700 hover:text-blue-500"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          className="text-blue-700 hover:text-blue-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-5 h-5"
+            className="w-5 h-5"
             viewBox="0 0 15 15"
+            aria-hidden="true"
           >
             <path
               fill="none"
@@ -59,12 +57,14 @@ export default function NavigationLinks() {
       <li>
         <a
           href="mailto:hello@scottyg.net"
-          class="text-purple-700 hover:text-purple-500"
+          aria-label="Email"
+          className="text-purple-700 hover:text-purple-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-5 h-5 ml-1"
+            className="w-5 h-5 ml-1"
             viewBox="0 0 15 15"
+            aria-hidden="true"
           >
             <path
               fill="none"
