@@ -1,16 +1,6 @@
-import Link from "next/link";
-
 export default function NavigationLinks() {
   return (
     <ul className="flex-row flex items-center gap-4 mt-4 md:mt-0 md:text-base md:font-medium">
-      <li>
-        <Link
-          href="/about"
-          className="h-7 dark:text-white md:hover:bg-transparent md:border-0 flex justify-center items-center md:hover:text-purple-700 md:p-0 hover:underline"
-        >
-          About
-        </Link>
-      </li>
       <li>
         <a
           href="https://github.com/scottyg/"
